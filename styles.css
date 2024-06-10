@@ -38,7 +38,7 @@ h1, p {
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    width: 40vw;
     gap: 20px;
 }
 
@@ -64,4 +64,21 @@ h1, p {
     border-top: 1px solid #FFFFFF;
     padding-top: 15px;
     text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    #app-container {
+        width: 60vw;
+    }
+
+    #input-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #app-container {
+        width: 80vw;
+    }
 }
