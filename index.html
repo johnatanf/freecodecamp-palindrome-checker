@@ -7,14 +7,17 @@
     <title>Palindrome Checker</title>
 </head>
 <body>
-    <main>
-        <h1>Is it a Palindrome?</h1>
-        <div>
-            <input id="text-input" type="text">
-            <button id="check-btn">Check</button>
+    <main id="app-container">
+        <div id="palindrome-input" class="box">
+            <h1>Is it a Palindrome?</h1>
+            <p>Enter in text to check for a palindrome:</p>
+            <div id="input-container">
+                <input id="text-input" class="input" type="text" placeholder="Input text here">
+                <button id="check-btn" class="btn">Check</button>    
+            </div>
             <div id="result"></div>
         </div>
-        <div>
+        <div id="palindrome-description" class="box">
             <p>
                 A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
             </p>
