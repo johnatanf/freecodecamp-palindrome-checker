@@ -59,3 +59,9 @@ h1, p {
     justify-content: space-around;
 }
 
+#result {
+    margin-top: 10px;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 15px;
+    text-align: center;
+}
